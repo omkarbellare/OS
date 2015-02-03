@@ -1,0 +1,2 @@
+mylocalserver.com 127.0.0.1
+externalserver.com 130.128.95.37

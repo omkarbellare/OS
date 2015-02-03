@@ -1,0 +1,13 @@
+1. make clean
+2. make
+
+To run proxy:
+Usage: ./proxy PROXY_PORT NO_PROXY_THREADS OPTIMIZE_BIT RPC_FILE
+
+where PROXY_PORT is the port number you want the proxy to run on
+NO_PROXY_THREADS is the number of threads for the proxy
+OPTIMIZE_BIT: if 1 jpg's are compressed using RPC servers, else normal JPGs should appear on the browser. If after changing this bit and browsing you don't get the results, please clear your browser's cache and try again
+RPC_FILE: I have provided rpcMapping.txt which contains the list of IPs that the RPC servers are running on
+
+To run RPC server:
+Usage: ./compress_server
